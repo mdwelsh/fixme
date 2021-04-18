@@ -1,0 +1,45 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/character-1.png",
+                "type": "image",
+                "key": "character-1"
+            },
+            {
+                "url": [
+                    "assets/components/UserComponent.js",
+                    "assets/components/PushOnClick.js"
+                ],
+                "type": "scripts",
+                "key": "components"
+            },
+            {
+                "url": "assets/dino.png",
+                "type": "image",
+                "key": "dino"
+            },
+            {
+                "url": "assets/Ground-1.png",
+                "type": "image",
+                "key": "Ground-1"
+            },
+            {
+                "url": "assets/infinitube-logo.png",
+                "type": "image",
+                "key": "infinitube-logo"
+            },
+            {
+                "url": "assets/scenes/Level.js",
+                "type": "sceneFile",
+                "key": "Level"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2
+    }
+}
