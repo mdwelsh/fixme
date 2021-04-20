@@ -215,19 +215,6 @@
             "scaleX": 5,
             "scaleY": 5
         },
-        {
-            "type": "Image",
-            "id": "d841a17a-2ca5-4e58-9a81-71b081917aef",
-            "label": "character_1",
-            "components": [],
-            "texture": {
-                "key": "character-1"
-            },
-            "x": 69,
-            "y": 316,
-            "scaleX": 5,
-            "scaleY": 5
-        }
     ],
     "plainObjects": [],
     "meta": {

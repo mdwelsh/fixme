@@ -1,10 +1,12 @@
 
 class Boot extends Phaser.Scene {
   preload() {
+    console.log("MDW: Boot.preload called");
     this.load.pack("pack", "assets/asset-pack.json");
   }
 
   create() {
+    console.log("MDW: Boot.create called");
     this.scene.start("Level");
   }
 }
@@ -17,7 +19,7 @@ var phaserConfig = {
   physics: {
     default: 'arcade',
     arcade: {
-      gravity: { y: 300 },
+      gravity: { y: 800 },
       debug: false
     }
   },
