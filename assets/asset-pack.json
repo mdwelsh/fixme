@@ -2,9 +2,9 @@
     "section1": {
         "files": [
             {
-                "url": "assets/character-1.png",
+                "url": "assets/character.png",
                 "type": "image",
-                "key": "character-1"
+                "key": "character"
             },
             {
                 "url": [
@@ -15,19 +15,29 @@
                 "key": "components"
             },
             {
-                "url": "assets/dino.png",
+                "url": "assets/floor.png",
                 "type": "image",
-                "key": "dino"
+                "key": "floor"
             },
             {
-                "url": "assets/Ground-1.png",
+                "url": "assets/platform_0.png",
                 "type": "image",
-                "key": "Ground-1"
+                "key": "platform_0"
             },
             {
-                "url": "assets/infinitube-logo.png",
+                "url": "assets/platform_1.png",
                 "type": "image",
-                "key": "infinitube-logo"
+                "key": "platform_1"
+            },
+            {
+                "url": "assets/platform_2.png",
+                "type": "image",
+                "key": "platform_2"
+            },
+            {
+                "url": "assets/platform_3.png",
+                "type": "image",
+                "key": "platform_3"
             },
             {
                 "url": "assets/scenes/Level.js",
