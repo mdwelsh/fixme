@@ -20,26 +20,6 @@
                 "key": "floor"
             },
             {
-                "url": "assets/platform_0.png",
-                "type": "image",
-                "key": "platform_0"
-            },
-            {
-                "url": "assets/platform_1.png",
-                "type": "image",
-                "key": "platform_1"
-            },
-            {
-                "url": "assets/platform_2.png",
-                "type": "image",
-                "key": "platform_2"
-            },
-            {
-                "url": "assets/platform_3.png",
-                "type": "image",
-                "key": "platform_3"
-            },
-            {
                 "url": "assets/scenes/Level.js",
                 "type": "sceneFile",
                 "key": "Level"

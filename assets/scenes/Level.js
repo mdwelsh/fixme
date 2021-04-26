@@ -18,8 +18,6 @@ class Level extends Phaser.Scene {
   }
 
   create() {
-    console.log("MDW: create called boogers");
-
     this.anims.create({
       key: 'platform',
       frames: this.anims.generateFrameNumbers('platform', {
@@ -32,20 +30,14 @@ class Level extends Phaser.Scene {
 
     var wall;
     wall = walls.create(0, 300-32, "floor");
-    //wall.scaleX = 5;
-    //wall.scaleY = 5;
     wall.body.immovable = true;
     wall.body.allowGravity = false;
 
     wall = walls.create(16, 300-32, "floor");
-    //wall.scaleX = 5;
-    //wall.scaleY = 5;
     wall.body.immovable = true;
     wall.body.allowGravity = false;
 
     wall = walls.create(32, 300-32, "floor");
-    //wall.scaleX = 5;
-    //wall.scaleY = 5;
     wall.body.immovable = true;
     wall.body.allowGravity = false;
 
@@ -88,27 +80,15 @@ class Level extends Phaser.Scene {
 
   update() {
     this.physics.collide(player, walls);
-    if(keyA.isDown) {
-      console.log('A key pressed')
-    } else if(keyS.isDown) {
-      console.log('S key pressed')
-    } else if(keyD.isDown) {
-      console.log('D key pressed')
-    } else if(keyW.isDown) {
-      console.log('W key pressed')
-    }
 
-    /*
-    if (cursors.left.isDown) {
+    if (keyA.isDown) {
       player.setVelocityX(-30);
-    } else if (cursors.right.isDown) {
+      player.tint = Math.random() * 0xffffff;
+    } else if (keyD.isDown) {
       player.setVelocityX(30);
-    } else if ((cursors.space.isDown || cursors.up.isDown) && player.body.onFloor()) {
+    } else if (keyW.isDown && player.body.onFloor()) {
       player.setVelocityY(-50);
-    } else {
-      player.setVelocityX(0);
     }
-    */
   }
 
   /* END-USER-CODE */
